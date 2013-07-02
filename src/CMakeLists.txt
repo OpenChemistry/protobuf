@@ -11,6 +11,8 @@ set(PACKAGE_STRING    "Protocal Buffers 2.5.0")
 # in various build environments (linux/mac).
 #------------------------------------------------------------------------------
 
+set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/${INSTALL_LIBRARY_DIR}")
+
 # use, i.e. don't skip the full RPATH for the build tree
 SET(CMAKE_SKIP_BUILD_RPATH  FALSE)
 
